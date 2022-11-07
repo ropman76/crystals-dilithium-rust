@@ -1,8 +1,10 @@
-mod poly;
+use crate::poly::Poly;
 
 
-   pub struct Polyvcl {
-        vec: Vec<poly::Poly>
+
+
+   pub struct Polyvcl{
+        vec: Vec<Poly>
     }
 
 
